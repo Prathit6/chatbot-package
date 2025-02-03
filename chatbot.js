@@ -6,6 +6,7 @@ const Chatbot = {
         "how are you": "I'm good! How about you?",
         "flip a coin": () => (Math.random() < 0.5 ? "Heads" : "Tails"),
         "roll a dice": () => `You rolled a ${Math.floor(Math.random() * 6) + 1}`,
+        "write a c++ program for addition of two numbers": `#include <iostream>\nusing namespace std;\n\nint main() {\n    int a, b;\n    cout << "Enter two numbers: ";\n    cin >> a >> b;\n    cout << "Sum: " << (a + b) << endl;\n    return 0;\n}`,
       };
   
       return responses[message.toLowerCase()] || "Sorry, I didn't understand.";
