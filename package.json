@@ -1,0 +1,23 @@
+{
+  "name": "chatbot-package",
+  "version": "1.0.0",
+  "description": "A simple chatbot response generator for JavaScript and Node.js",
+  "main": "chatbot.js",
+  "scripts": {
+    "dev": "node chatbot.js",
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathit6/chatbot-package.git"
+  },
+  "keywords": [
+    "npm", "chatbot", "javascript", "node.js"
+  ],
+  "author": "Prathit dode",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Prathit6/chatbot-package/issues"
+  },
+  "homepage": "https://github.com/Prathit6/chatbot-package#readme"
+}
